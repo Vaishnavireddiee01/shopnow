@@ -1,8 +1,11 @@
 //13
 Main ideas of js:
 
-1 save data
-2 generate HTML
+1 save data == in objects, key-value pairs or in array or string
+2 generate HTML == 2. using arrow functions to find matching,
+       1. get code from .html like divs to generate html,  
+       3. use dom to put it into web page. 
+       for dom use/add/create another class 
  2.1 combine this html together
  2.2 put it on web page(using dom)
 3 Make it interactive
