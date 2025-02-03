@@ -1,0 +1,7 @@
+Main ideas of js:
+
+1 save data
+2 generate HTML
+ 2.1 combine this html together
+ 2.2 put it on web page(using dom)
+3 Make it interactive
