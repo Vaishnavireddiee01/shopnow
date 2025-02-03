@@ -23,3 +23,7 @@ Main ideas of js:
   1. check if the prdct is already in the cart
   2. if it is in the cart, increase the quantity
   3.if it is not in thecart, add it to the cart.
+
+  steps to make cart button interactive:
+  1. calculate quantity
+  2. put quantity on the page

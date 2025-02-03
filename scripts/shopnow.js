@@ -83,6 +83,16 @@ document.querySelectorAll('.js-add-to-cart')
                 quantity: 1,
             });
             }
-            console.log(cart);
+            //put no of items in cart icon
+            let cartquantity=0;
+            cart.forEach((item) => {
+              cartquantity+=item.quantity;
+            });
+
+            document.querySelector('.js-cart-quantity')
+            .innerHTML=cartquantity;
+
+            //console.log(cartquantity);
+            //console.log(cart);
         });
     });
