@@ -1,3 +1,4 @@
+//13
 Main ideas of js:
 
 1 save data
@@ -27,3 +28,22 @@ Main ideas of js:
   steps to make cart button interactive:
   1. calculate quantity
   2. put quantity on the page
+
+//14
+to avoid naming conflicts we create Module
+
+Create a Module:
+1. create a file
+2. Dont load the file with <script>
+
+Any variables we create inside the file, 
+will be contained inside the file
+
+-Get a variable out of a file:
+1.Add type="module" attribute
+2. Export
+3. Import
+
+--Benefits of Module:
+1.avoid naming conflicts
+2. dont have to worrt about order of files
