@@ -47,3 +47,11 @@ will be contained inside the file
 --Benefits of Module:
 1.avoid naming conflicts
 2. dont have to worrt about order of files
+
+
+==Group related code together into its own file
+
+--import * as cartModule from'../data/cart.js';
+it imports everything from cart.js
+cartModule.cart
+cartModule.addToCarr('id')
