@@ -8,7 +8,8 @@ Main ideas of js:
        for dom use/add/create another class 
  2.1 combine this html together
  2.2 put it on web page(using dom)
-3 Make it interactive
+3 Make it interactive = add class name to make interactive
+            then use doc.queselectall(.js-newclassadded)
   3.1 how do we know which prdct to add?
   data attribute : is just another HTML attribute
   it allows us to attach any information to an element
@@ -60,3 +61,16 @@ will be contained inside the file
 it imports everything from cart.js
 cartModule.cart
 cartModule.addToCarr('id')
+
+for deleting a product from cart:
+1.remove product from cart(ds)(added attribute data-product-id=matchingproduct.id
+   in checkout.js delete section to know which prdct we have to delete)
+2.update our HTML
+
+=Now,after finding productId how to remove productId from cart:
+Follow below steps:
+this code is in cart.js bcz everything related to prdct info is in cart.js
+created fun removeFromCart
+1.create new array
+2.loop through cart
+3.add each prdct to new array except for this productId
