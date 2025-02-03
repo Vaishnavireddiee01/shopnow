@@ -5,3 +5,21 @@ Main ideas of js:
  2.1 combine this html together
  2.2 put it on web page(using dom)
 3 Make it interactive
+  3.1 how do we know which prdct to add?
+  data attribute : is just another HTML attribute
+  it allows us to attach any information to an element
+
+  syntax for a data attribut:
+  is just an HTML attribute
+  it have to start with "data-"
+  then give it any name
+
+  name              value
+  data-prdct-name="${prdct.name}">
+
+
+
+  steps:
+  1. check if the prdct is already in the cart
+  2. if it is in the cart, increase the quantity
+  3.if it is not in thecart, add it to the cart.
