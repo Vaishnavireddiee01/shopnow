@@ -49,7 +49,9 @@ will be contained inside the file
 
 --Benefits of Module:
 1.avoid naming conflicts
-2. dont have to worrt about order of files
+2. dont have to worry about order of files
+3. using modules we can reuse a lot of code and reduce complexions
+  (Here-formatCurrency function in scripts/utils/money.js used in shopnow.js and checkout.js)
 
 
 ==Group related code together into its own file
