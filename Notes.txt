@@ -74,3 +74,8 @@ created fun removeFromCart
 1.create new array
 2.loop through cart
 3.add each prdct to new array except for this productId
+
+
+2=Update HTML steps:
+1. use dom to get the element to remove
+2. use .remove() method

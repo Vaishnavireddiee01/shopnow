@@ -27,12 +27,12 @@ export function addToCart(productId){
   }
 
 export function removeFromCart(productId){
-    const newcart=[];
+    const newCart=[];
     cart.forEach((cartItem) =>{
       if(cartItem.productId!==productId){
-        newcart.push(cartItem);
+        newCart.push(cartItem);
       }
     });
 
-    cart=newcart; 
+    cart=newCart; 
   }
