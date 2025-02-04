@@ -1,14 +1,14 @@
 //13
 Main ideas of js:
-
-1 save data == in objects, key-value pairs or in array or string
-2 generate HTML == 2. using arrow functions to find matching,
+It is also called MVC 
+1 (Model) save data == in objects, key-value pairs or in array or string
+2 (View) generate HTML == 2. using arrow functions to find matching,
        1. get code from .html like divs to generate html,  
        3. use dom to put it into web page. 
        for dom use/add/create another class 
  2.1 combine this html together
  2.2 put it on web page(using dom)
-3 Make it interactive = add class name to make interactive
+3 (Controller) Make it interactive = add class name to make interactive
             then use doc.queselectall(.js-newclassadded)
   3.1 how do we know which prdct to add?
   data attribute : is just another HTML attribute
@@ -150,3 +150,7 @@ steps:
 1. loop through data
 2. for each prdct, price*quantity
 3. add everything together
+
+=> NOTE : MVC makes sure that the HTML always matches the data or 
+that the view always matches the model.
+
