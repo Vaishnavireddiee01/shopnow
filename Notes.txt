@@ -187,3 +187,5 @@ In jasmine spec is another name for test (spec=test)
 
 => describe()= func used to create test suite in jasmine framework
 => it()= it is used to create a test
+
+Test Coverage = how much of the code is being tested.
