@@ -126,3 +126,11 @@ then steps
 2.1 loop through deliveryOptions
 2.2 for each option, generate some html
 2.3 combine all the html together
+
+3. Make it interactive(js):
+1. Update deliveryOptionId in the cart
+2. Update page
+
+3.1.1=>  create func updateDeliveryOption needs prdctid, deliveryOptionId
+    steps: 1.loop through cart and find product
+           2.update deliveryOptionId of prdct
