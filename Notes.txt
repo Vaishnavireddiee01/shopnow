@@ -79,3 +79,50 @@ created fun removeFromCart
 2=Update HTML steps:
 1. use dom to get the element to remove
 2. use .remove() method
+
+
+//chapter - 15
+
+why we use external libraries:
+external libraries are code in the internet
+
+1. let us share code
+2. save time
+3. avoid duplicating work
+
+eg: To get these dates(in delivery option):
+1. get today's date
+2. do calculations(7 days, 3 days....)
+3. display the date in easy-to-read format
+
+==Best pracice for coding is:
+when we need something complicated,
+-Try to find an external library first.
+-Before writing the code ourselves.
+
+==How to find external libraries:
+search in google or chatgpt eg: javascript date library.
+
+
+==External libraries+js modules together:
+--for this we use a special version of library caled an "ESM version"
+ESM=EcmaScript Module it is another name of js => ESM=js
+ESM Version: A version that works with javascript modules
+
+==Default export:
+
+eg:import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
+
+here there is no curly brace({}) for dayjs=it is default export
+
+-default export:
+-another way of exporting
+-we can use it when we only want to export 1 thing
+
+==js code;
+save data(deliveryid,price,id in a ds)
+generate html=created a function deliveryOptionsHTML in vheckout.js
+then steps
+2.1 loop through deliveryOptions
+2.2 for each option, generate some html
+2.3 combine all the html together
