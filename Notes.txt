@@ -178,3 +178,12 @@ for this:
 3. compare values and display result
 
 = > **Testing framework used here is : Jasmine
+
+In jasmine spec is another name for test (spec=test)
+
+1.create test suite
+2.create tests
+3.compare values and display result
+
+=> describe()= func used to create test suite in jasmine framework
+=> it()= it is used to create a test
