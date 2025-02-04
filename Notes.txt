@@ -167,3 +167,14 @@ Disadvantages of Manual Testing:
 2. Edge case = test withvalues that are tricky.
 
 = > Group of related tests = test suite 
+
+//Chapter 17 : Testing Framework :
+
+Testing Framework = external library that helps us write tests easier.
+
+for this:
+1. create test suite
+2. create tests
+3. compare values and display result
+
+= > **Testing framework used here is : Jasmine
