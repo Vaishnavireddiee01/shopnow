@@ -134,3 +134,14 @@ then steps
 3.1.1=>  create func updateDeliveryOption needs prdctid, deliveryOptionId
     steps: 1.loop through cart and find product
            2.update deliveryOptionId of prdct
+
+MVC (Model-view-control):
+split our code into 3 parts
+1.model = saves and manages the data(cart.js here)
+2.view = takes the data and displays it on the page (checkout.js here)
+3.controller = runs some code when we interact with the page.(event listeners in checkout.js)
+
+MVC=makes sure the page always matches the data
+MVC is a design pattern-its a way to organize and design our code.
+
+
