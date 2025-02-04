@@ -154,3 +154,16 @@ steps:
 => NOTE : MVC makes sure that the HTML always matches the data or 
 that the view always matches the model.
 
+//chap 16
+
+Disadvantages of Manual Testing:
+1. hard to test every situation
+2. hard to re-test
+
+=> Automated Testing = using code to test code.
+
+= > 2 types of Test cases
+1. Basic test cases = test if the code is working.
+2. Edge case = test withvalues that are tricky.
+
+= > Group of related tests = test suite 
