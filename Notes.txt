@@ -144,4 +144,9 @@ split our code into 3 parts
 MVC=makes sure the page always matches the data
 MVC is a design pattern-its a way to organize and design our code.
 
-
+Paymentsummary.js:
+1. save data
+steps:
+1. loop through data
+2. for each prdct, price*quantity
+3. add everything together
