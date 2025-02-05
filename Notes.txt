@@ -240,3 +240,11 @@ more details about constructor:
 ==> chapter 19(Inheritance):
 
 It lets us reuse code between classes.
+
+=>"this" lets an object access its own properties.
+
+==> Summary of "this":
+1. inside a method,"this" points to the outer object
+2. inside a function, this=undefined, but we can change it.
+3. Arrow functions,do not change the value of "this"
+
