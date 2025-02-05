@@ -236,3 +236,7 @@ classes have extra features for oop
 more details about constructor:
 1.method has to be named "constructor"
 2.should not return anything.
+
+==> chapter 19(Inheritance):
+
+It lets us reuse code between classes.
