@@ -248,3 +248,12 @@ It lets us reuse code between classes.
 2. inside a function, this=undefined, but we can change it.
 3. Arrow functions,do not change the value of "this"
 
+
+==> chapter(18) Backend:
+backend: another computer that manages the data of a website
+
+URL=UNIFORM RESOURCE LOCATOR:
+-like an address, but for the internet.
+-helps us locate another computer on the internet.
+
+
