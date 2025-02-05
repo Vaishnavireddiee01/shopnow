@@ -210,3 +210,29 @@ eg: loadFromStorage(){
 }
 
 is shortcut method for loadFromStorage: function(){}
+
+//chapter 18 Classes
+
+An even better way to generate objects = class
+
+oop has a feature called "class". 
+class is specifically designed for generating objects.
+
+class=Object generator
+
+oop=organizing our code into objects
+(tries to represent the real world)
+
+class=helps us generate those objects
+(object generator)
+
+benefits of class:
+a class looks like the object that it generates.
+cleaner than using a function
+classes have extra features for oop
+
+=> Constructor = let us run setup code
+
+more details about constructor:
+1.method has to be named "constructor"
+2.should not return anything.
