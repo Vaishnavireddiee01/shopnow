@@ -1,9 +1,15 @@
 import {cart, addToCart} from '../data/cart.js';
-import {products} from '../data/products.js';
+import {products, loadProducts} from '../data/products.js';
 import { formatCurrency } from './utils/money.js';
 
-let productsHTML='';
-products.forEach((product) => {
+
+loadProducts(renderProductsGrid);
+
+function renderProductsGrid() {
+
+  let productsHTML='';
+
+  products.forEach((product) => {
     productsHTML+= `
         <div class="product-container">
           <div class="product-image-container">
@@ -53,7 +59,7 @@ products.forEach((product) => {
           </div>
 
           <button class="add-to-cart-button button-primary js-add-to-cart"
-           data-product-id="${product.id}">
+          data-product-id="${product.id}">
             Add to Cart
           </button>
         </div>
@@ -93,3 +99,5 @@ document.querySelectorAll('.js-add-to-cart')
             //console.log(cart);
         });
     });
+
+}
