@@ -189,3 +189,24 @@ In jasmine spec is another name for test (spec=test)
 => it()= it is used to create a test
 
 Test Coverage = how much of the code is being tested.
+
+//chapter 17 OOPS:
+
+OOPS : organize the code into objects
+
+Method=Function inside an object
+
+why we use oops?
+ITtries to represent the real world.
+Easy to create multiple objects
+
+=>Better way to create multiple objects is :
+Create a function that generates objects.
+
+js has a shortcut for method called "shorthand method syntax" :
+
+eg: loadFromStorage(){
+
+}
+
+is shortcut method for loadFromStorage: function(){}
