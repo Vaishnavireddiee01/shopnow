@@ -95,6 +95,8 @@ const ob3={
 ob3.method();
 */
 
+
+
 // backend
 export let products=[];
 
@@ -120,7 +122,7 @@ export function loadProducts(fun){
   xhr.send();
 
 }
-loadProducts();
+//loadProducts();
 
 /*
 export const products = [

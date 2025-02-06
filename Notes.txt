@@ -237,7 +237,7 @@ more details about constructor:
 1.method has to be named "constructor"
 2.should not return anything.
 
-==> chapter 19(Inheritance):
+==> chapter 17(Inheritance):
 
 It lets us reuse code between classes.
 
@@ -257,3 +257,30 @@ URL=UNIFORM RESOURCE LOCATOR:
 -helps us locate another computer on the internet.
 
 
+==> chapter 19 (promises):
+--better way yo handle asynchronous code
+-- similar to done() function
+-- let us wait for some code to finish, before going to the next step.
+
+promise is an inbuilt class. so, when we create a promise we need to give it to a function.
+so, when we create a promise. It's going to run this function immediately.
+
+= resolve is a function
+- similar to done() function.
+- let us control when to go to the next step.
+
+=> promises are designed bcz, it allows js to do multiple
+things at the same time.
+
+here, resolve() let us contrl when we go to the next step.
+we use resolve() to wait for each step to finish before going to the next step.
+
+=>* why do we use promise?
+-- used inplace of callbacks..multiple callbacks cause a lot of nesting.
+-- promises lets us to flatten our code. so, use promises instead of callbacks.
+
+=>* we can run multiple promises at the same time.=(promise.all())
+
+=> Promise.all():
+-lets us run multiple promises at the same time.
+-and wait for all of them to finish.
