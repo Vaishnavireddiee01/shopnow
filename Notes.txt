@@ -288,3 +288,22 @@ we use resolve() to wait for each step to finish before going to the next step.
 => fetch()=better way to make HTTP requests.
 
 =>response.json() is asynchronous, it returns a promise.
+
+==> chapter 20(Async Await):
+= even better way to handle asynchronous code.
+= Async await is a shortcut for promises.
+= async(keyword) = makes a function return a promise.
+
+=*  what is the point of this feature?
+=asyn lets us use await
+= await = lets us wait for a promise to finish,
+ before going to the next line.
+ and await = lets us write asynchronous code like normal code.
+
+*= we can only use await, when we are inside an async function.
+=* async await can only be used with promises.
+
+==> More details about async await:
+we can only use await, inside an async function.
+
+The closest function has to be async.
