@@ -307,3 +307,17 @@ we use resolve() to wait for each step to finish before going to the next step.
 we can only use await, inside an async function.
 
 The closest function has to be async.
+
+=> Error Handling:
+
+When we are sending HTTP requests, we could get unexpected errors.
+
+= set up a separate callback just for errors.
+
+=> Handle errors in asyn await.
+
+reject() is a function
+- it lets us create an error in the future.
+
+
+
