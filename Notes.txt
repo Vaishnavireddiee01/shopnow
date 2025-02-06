@@ -329,3 +329,4 @@ POST = create something
 PUT = update something 
 DELETE = delete something 
 
+URL parameters= let us save data directly in the URL
